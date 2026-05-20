@@ -30,15 +30,13 @@ To ensure solution accuracy and eliminate common numerical errors inherent in ex
 
 
 ### 1. Impact Animation (Explicit Dynamics)
-![Impact Animation](Results/impact_animation.gif)
+![Impact Animation](Results/<img width="1174" height="540" alt="Image" src="https://github.com/user-attachments/assets/01ba0bb4-e546-4710-8c49-f119171a6b81" />)
 *Figure 1: High-velocity transient impact propagation and plate deformation.*
 
-### 2. Von-Mises Stress Distribution
-![Stress Distribution](Results/von_mises_stress.png)
-*Figure 2: Peak stress contours at the time of maximum penetration.*
 
-### 3. Energy Conservation Plot
-![Energy Validation Plot](Results/energy_plot.png)
+### 2. Energy Conservation Plot
+![Energy Validation Plot](Results/<img width="683" height="304" alt="Image" src="https://github.com/user-attachments/assets/5102343d-0556-46c9-82fc-af288075cbe1" />
+<img width="680" height="309" alt="Image" src="https://github.com/user-attachments/assets/57af3bd9-3872-490a-a129-513b8eb4103f" />)
 *Figure 3: Global energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
 
 ## Repository Structure
