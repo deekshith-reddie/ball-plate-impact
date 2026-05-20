@@ -3,28 +3,27 @@
 Explicit dynamics finite element simulation of high-velocity ball-plate impacts using ANSYS LS-DYNA with rigorous mesh convergence and energy validation checks.
 
 ## Project Overview
-[cite_start]This project presents a finite element simulation of a high-velocity ball impacting a stationary metal plate[cite: 1]. [cite_start]Utilizing the explicit dynamics capabilities of **ANSYS LS-DYNA**, the study focuses on tracking transient stress propagation, non-linear material deformation patterns, and energy absorption mechanics during a severe structural impact event[cite: 1].
+This project presents a finite element simulation of a high-velocity ball impacting a stationary metal plate.Utilizing the explicit dynamics capabilities of **ANSYS LS-DYNA**, the study focuses on tracking transient stress propagation, non-linear material deformation patterns, and energy absorption mechanics during a severe structural impact event
 
 ## Technical Stack & Framework
-* [cite_start]**Solver / FEA Engine:** ANSYS LS-DYNA (Explicit Dynamics Solver) [cite: 1]
+* **Solver / FEA Engine:** ANSYS LS-DYNA (Explicit Dynamics Solver)
 * **Pre/Post-Processor:** LS-PrePost
-* [cite_start]**Key Methodologies:** Finite Element Analysis (FEA), Mesh Convergence Study, Energy Conservation Validation [cite: 1]
+* **Key Methodologies:** Finite Element Analysis (FEA), Mesh Convergence Study, Energy Conservation Validation
 
 ## Simulation Setup & Methodology
-1. [cite_start]**Geometry & Domain:** Modeled a spherical object (ball) impacting a thin bounded target plate[cite: 1].
-2. [cite_start]**Material Modeling:** Configured non-linear plastic material properties to accurately represent high-strain-rate deformation behavior[cite: 1].
-3. [cite_start]**Boundary Conditions:** Defined an explicit velocity vector for the projectile and constrained the outer edges of the plate to simulate a fixed fixture[cite: 1].
-4. [cite_start]**Solver Setup:** Executed an explicit time-integration scheme suited for transient, short-duration impact phenomena[cite: 1].
+1. **Geometry & Domain:** Modeled a spherical object (ball) impacting a thin bounded target plate
+2. **Material Modeling:** Configured non-linear plastic material properties to accurately represent high-strain-rate deformation behavior
+3. **Boundary Conditions:** Defined an explicit velocity vector for the projectile and constrained the outer edges of the plate to simulate a fixed fixture
+4. **Solver Setup:** Executed an explicit time-integration scheme suited for transient, short-duration impact phenomena
 
 ## Grid Independence & Numerical Validation
 To ensure solution accuracy and eliminate common numerical errors inherent in explicit dynamics, the following verification pipeline was established:
-* [cite_start]**Mesh Refinement:** Conducted systematic mesh convergence checks at the high-stress impact zone to establish structural response independence from element sizing[cite: 1].
-* [cite_start]**Energy Balance Verification:** Analyzed the global energy balance to ensure physical consistency[cite: 1]. [cite_start]Total energy remained stable, confirming that artificial energies (such as hourglassing) were minimized and kept within acceptable industrial thresholds (typically < 5% of internal energy)[cite: 1].
-
+* **Mesh Refinement:** Conducted systematic mesh convergence checks at the high-stress impact zone to establish structural response independence from element sizing
+* **Energy Balance Verification:** Analyzed the global energy balance to ensure physical consistency. Total energy remained stable, confirming that artificial energies (such as hourglassing) were minimized and kept within acceptable industrial thresholds (typically < 5% of internal energy).
 ## Key Results & Engineering Insights
-* [cite_start]**Deformation Analysis:** Captured structural deformation histories and localized plastic strain distributions across the target plate[cite: 1].
-* [cite_start]**Stress Propagation:** Visualized Von-Mises stress waves radiating outward from the point of impact[cite: 1].
-* [cite_start]**Energy Absorption:** Quantified the conversion of the projectile's Kinetic Energy into the plate's Internal (Plastic Strain) Energy[cite: 1].
+* **Deformation Analysis:** Captured structural deformation histories and localized plastic strain distributions across the target plate
+***Stress Propagation:** Visualized Von-Mises stress waves radiating outward from the point of impact.
+* **Energy Absorption:** Quantified the conversion of the projectile's Kinetic Energy into the plate's Internal (Plastic Strain) Energy.
 
 ## Visualizations
 
@@ -37,11 +36,5 @@ To ensure solution accuracy and eliminate common numerical errors inherent in ex
 ### 2. Energy Conservation Plot
 ![Energy Validation Plot](Results/<img width="683" height="304" alt="Image" src="https://github.com/user-attachments/assets/5102343d-0556-46c9-82fc-af288075cbe1" />
 <img width="680" height="309" alt="Image" src="https://github.com/user-attachments/assets/57af3bd9-3872-490a-a129-513b8eb4103f" />)
-*Figure 3: Global energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
-
-## Repository Structure
-```text
-├── Input_Decks/          # LS-DYNA keyword files (.k / .key)
-├── CAD_Models/           # Geometry files (.STEP / .IGS)
-├── Results/              # Animation GIFs, stress plots, and energy graphs
-└── README.md             # Project documentation
+*Figure 2.1: Global energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
+*Figure 2.2: Component energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
