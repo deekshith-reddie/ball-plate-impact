@@ -34,7 +34,8 @@ To ensure solution accuracy and eliminate common numerical errors inherent in ex
 
 
 ### 2. Energy Conservation Plot
-![Energy Validation Plot](Results/<img width="683" height="304" alt="Image" src="https://github.com/user-attachments/assets/5102343d-0556-46c9-82fc-af288075cbe1" />
-<img width="680" height="309" alt="Image" src="https://github.com/user-attachments/assets/57af3bd9-3872-490a-a129-513b8eb4103f" />)
+![Energy Validation Plot](Results/
+<img width="680" height="309" alt="Image" src="https://github.com/user-attachments/assets/57af3bd9-3872-490a-a129-513b8eb4103f" />
+<img width="683" height="304" alt="Image" src="https://github.com/user-attachments/assets/5102343d-0556-46c9-82fc-af288075cbe1" />)
 *Figure 2.1: Global energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
 *Figure 2.2: Component energy curve displaying Kinetic Energy, Internal Energy, and Hourglass Energy over time.*
